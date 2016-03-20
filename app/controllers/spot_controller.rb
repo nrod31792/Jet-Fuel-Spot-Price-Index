@@ -1,5 +1,8 @@
 class SpotController < ApplicationController
+  respond_to :json
+
+  
   def index
-    @profile = Spot.new.get_spot
+    @data = Spot.new.get_spot
   end
 end

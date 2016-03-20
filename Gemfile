@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+
+gem 'responders', '~> 2.1', '>= 2.1.1'
+
 gem 'httparty', '~> 0.13.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
