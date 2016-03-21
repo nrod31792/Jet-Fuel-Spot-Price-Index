@@ -9,7 +9,7 @@
 
     <% @data["series"][0]["data"].each do |a , b| %>
   <tr>
-      <td><%= a %></td>
+      <td><%= Date.parse a %></td>
       <td><%= b %></td>
   </tr>
     <% end %>
